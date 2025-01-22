@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="globalCSS.css">
+   <title>Feedback Form</title>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="https://localhost/ClassSync/index.html">Home</a>
+    <a href="https://localhost/ClassSync/schedule.html">Schedule</a>
+    <a href="https://localhost/ClassSync/feedback.html">Feedback</a>
+  </nav>
+      <form id="feedbackForm" action="thanks.html">
+      <div class="feedback-container">
+         <h2>Class Feedback</h2>
+        <!-- department Selection -->
+      <label for="department">Department:</label>
+      <select id="department" name="department" required>
+        <option value="" disabled selected>Select your department</option>
+        <option value="CAPP">CAPP</option>
+        <option value="History">History</option>
+        <option value="History">History</option>
+        <option value="Geography">Geography</option>
+        <option value="Economics">Economics</option>
+        <option value="BBA">BBA</option>
+      </select><br>
+      <!-- Semester Selection -->
+      <label for="Semester">Semester:</label>
+      <select id="Semester" name="Semester" required>
+        <option value="" disabled selected>Select your Semester</option>
+        <option value="Semester1">1</option>
+        <option value="Semester2">2</option>
+        <option value="Semester3">3</option>
+        <option value="Semester4">4</option>
+        <option value="Semester5">5</option>
+        <option value="Semester6">6</option>
+        <option value="Semester7">7</option>
+        <option value="Semester8">8</option>
+      </select>
+<br>
+ <!-- Subject -->
+ <label for="Subject">Subject:</label>
+ <textarea id="Subject" name="Subject" rows="1" placeholder="Subject name"></textarea>
+<br>
+<label for="rating">Rating:</label>
+<div class="rating">
+    <input type="radio" name="rating" id="rating1" value="1" required><label for="rating1">1</label>
+    <input type="radio" name="rating" id="rating2" value="2"><label for="rating2">2</label>
+    <input type="radio" name="rating" id="rating3" value="3"><label for="rating3">3</label>
+    <input type="radio" name="rating" id="rating4" value="4"><label for="rating4">4</label>
+    <input type="radio" name="rating" id="rating5" value="5"><label for="rating5">5</label>
+</div>
+      <!-- Comments -->
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Share your experience (optional)"></textarea>
+<br>
+      <!-- Submit Button -->
+      <button type="submit">Submit Feedback</button>
+    
+  </div>
+</form >
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* Reset and global styles */
+body, h1, h3, h4, h5, p, ul, ol, li 
+{
+  margin: 0px;
+  padding: 10px;
+}
+body 
+{
+  margin: 30px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  color: #041f5d;
+  display: flex;
+  flex-direction: column;
+  background: url("https://localhost/ClassSync/asset/presentation-business-style-08.jpg") center/cover no-repeat;
+  align-items: center; /* Center align items */
+}
+/* Navbar styles */
+.navbar 
+{
+  background-color: #0066cc; /* Navbar background color */
+  width: 100%; /* Full width */
+  padding: 10px 0; /* Padding for navbar */
+  text-align: center; /* Center text in navbar */
+}
+.navbar a 
+{
+  color: #ffffff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  margin: 15px; /* Space between links */
+  font-weight: bold; /* Bold text */
+}
+.navbar a:hover 
+{
+  text-decoration: underline; /* Underline on hover */
+}
+/* Hero section with background image */
+.hero 
+{
+  background: url('http://localhost/ClassSync/asset/5072612.jpg') center/cover no-repeat;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  width: 100%; /* Full width */
+}
+/* Form title */
+h2 
+{
+  text-align: center;
+  color: #0066cc; /* Title color */
+}
+
+/* Label and input styles */
+label 
+{
+  display: block;
+  margin-bottom: 8px;
+  color: black; /* Black text for labels */
+}
+input, select, textarea 
+{
+  width: 100%; /* Full width */
+  padding: 10px;
+  margin: 10px 0; /* Space between fields */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+}
+input:focus, select:focus, textarea:focus 
+{
+  border-color: #0066cc; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+.about
+{
+    padding: 70px;
+    margin: 10px 0; 
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* Rating styles */
+.rating 
+{
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  margin-bottom: 15px; /* Space below rating */
+}
+.rating input 
+{
+  margin-right: 5px; /* Space between radio buttons */
+}
+.rating label 
+{
+  margin-right: 25px; /* Space between labels */
+}
+/* Button styles */
+button 
+{
+  background-color: #0066cc; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  width: 100%; /* Full width */
+}
+button:hover 
+{
+  background-color: #688ffa; /* Darker shade on hover */
+}
+/* Feedback message styles */
+#feedbackMessage 
+{
+  text-align: center; /* Center align feedback message */
+  color: #0066cc; /* Color for feedback message */
+  margin-top: 15px; /* Space above message */
+}
+/* Feedback container styles */
+.feedback-container,.thanks,.Schedule
+{
+    margin: 5px;
+    padding: 50px;
+    background: rgba(58, 162, 248, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(178, 88, 251, 0.13);
+}
+

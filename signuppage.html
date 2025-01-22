@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="globalCSS.css">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="https://localhost/ClassSync/index.html">Home</a>
+        <a href="https://localhost/ClassSync/schedule.html">Schedule</a>
+        <a href="https://localhost/ClassSync/feedback.html">Feedback</a>
+      </nav>
+      <br>
+<div class="container">
+    <h2>Sign Up</h2>
+    <form id="signupForm"  method="POST" action="/signuppage.php">
+        <input type="text" id="Name" placeholder="Name" required>
+        <div id="studentFields">
+            <input type="text" id="Class" placeholder="Class" required>
+            <input type="text" id="Semester" placeholder="Semester" required>
+            <input type="text" id="Department" placeholder="Department" required>
+        </div>
+        <input type="email" id="Email" placeholder="Email" required>
+        <select id="Role" required>
+            <option value="">Select Role</option>
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="College">College</option>
+        </select>
+        <input type="password" id="createPassword" placeholder="Create Password" required>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
