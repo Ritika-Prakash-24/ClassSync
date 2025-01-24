@@ -37,7 +37,7 @@ body
 /* Hero section with background image */
 .hero 
 {
-  background: url("5072612.jpg") center/cover no-repeat;
+  background: url('5072612.jpg') center/cover no-repeat;
   padding: 10px;
   color: #ffffff;
   font-size: 20px;
