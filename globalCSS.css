@@ -12,7 +12,7 @@ body
   color: #041f5d;
   display: flex;
   flex-direction: column;
-  background: url("presentation-business-style-08.jpg") center/cover no-repeat;
+  background: url(./asset/presentation-business-style-08.jpg) center/cover no-repeat;
   align-items: center; /* Center align items */
 }
 /* Navbar styles */
