@@ -12,7 +12,7 @@ body
   color: #041f5d;
   display: flex;
   flex-direction: column;
-  background: url(./asset/presentation-business-style-08.jpg) center/cover no-repeat;
+  background: url(https://ritika-prakash-24.github.io/ClassSync/presentation-business-style-08.jpg) center/cover no-repeat;
   align-items: center; /* Center align items */
 }
 /* Navbar styles */
@@ -37,7 +37,7 @@ body
 /* Hero section with background image */
 .hero 
 {
-  background: url('5072612.jpg') center/cover no-repeat;
+  background: url('https://ritika-prakash-24.github.io/ClassSync/5072612.jpg') center/cover no-repeat;
   padding: 10px;
   color: #ffffff;
   font-size: 20px;
